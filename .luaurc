@@ -6,6 +6,8 @@
   },
   "lintErrors": true,
   "aliases": {
-    "lune": "~/.lune/.typedefs/0.10.4/"
+    "lune": "~/.lune/.typedefs/0.10.4/",
+    "pkg": "luau_packages",
+    "lune_pkg": "lune_packages"
   }
 }
