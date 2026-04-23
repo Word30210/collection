@@ -1,0 +1,11 @@
+{
+  "languageMode": "strict",
+  "lint": {
+    "*": true,
+    "LocalShadow": false
+  },
+  "lintErrors": true,
+  "aliases": {
+    "lune": "~/.lune/.typedefs/0.10.4/"
+  }
+}
