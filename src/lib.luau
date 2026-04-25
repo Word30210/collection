@@ -68,7 +68,7 @@ local function traverse<T>(self: VirtualWorkspace, path: string, create_if_missi
     return Result.ok(current_node)
 end
 
-function VirtualWorkspace.set<T>(self: VirtualWorkspace, value: T, path: string): Result.Result<T, string>
+function VirtualWorkspace.set<T>(self: VirtualWorkspace, path: string, value: T): Result.Result<T, string>
     local res = traverse<<T>>(self, path, true)
     local node, err = res:unpack()
 
